@@ -28,29 +28,53 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 display: block;
 }
-
+*{
+    box-sizing: border-box;
+}
 .header{
 display: flex;
 flex-direction: column;
 justify-content: space-around;
 
 }
-/* code for nav bar*/
 
+/* code for nav bar*/
+.mainbar{
+    
+    display: flex;
+    justify-content: center;
+    
+}
 .navigation {
     display: flex;
-    flex-direction: row;
-    /* This aligns items to the end line on main-axis */
-    justify-content: flex-end;
-    
+    justify-content: space-evenly;
+    width: 60%;
+    align-items: flex-end;
+    align-content: center;
+    text-decoration: black;
+}
+
+
 }
 
 /* code for nav bar Ends here*/
 .logo {
-    display: inline;
-    justify-content: flex-start;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-left: 30px;
+    
 }
+.image{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+   padding-bottom: 15px;   
+   height: fit-content;
 
+    
+}
 body {
 box-sizing:border-box;
 margin: 10px;
@@ -71,10 +95,6 @@ content: none;
 table {
 border-collapse: collapse;
 border-spacing: 0;
-}
-
-* {
-box-sizing: border-box;
 }
 
 html, body {
@@ -98,6 +118,7 @@ margin: 0 auto;
 }
 
 .top-content {
+    box-sizing: border-box;
 display: flex;
 flex-wrap: wrap;
 justify-content: space-evenly;
@@ -130,13 +151,123 @@ justify-content: space-evenly;
 .middle-content .boxes .box {
 width: 12.5%;
 height: 100px;
-background: black;
+margin: 20px 2.5%;
+color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+background:black;
+}
+
+.box1{
+width: 12.5%;
+height: 100px;
+background: teal;
+margin: 20px 2.5%;
+color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+} 
+.box2{
+    width: 12.5%;
+height: 100px;
+background: gold;
+margin: 20px 2.5%;
+color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+} 
+.box3{
+    width: 12.5%;
+height: 100px;
+background: cadetblue;
+margin: 20px 2.5%;
+color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+} 
+.box4{
+    width: 12.5%;
+height: 100px;
+background: coral;
 margin: 20px 2.5%;
 color: white;
 display: flex;
 align-items: center;
 justify-content: center;
 }
+.box5 {
+    background-color: crimson;
+    width: 12.5%;
+height: 100px;
+background: teal;
+margin: 20px 2.5%;
+color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+} 
+
+.box6{
+    background-color: forestgreen;
+    width: 12.5%;
+height: 100px;
+
+margin: 20px 2.5%;
+color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+} 
+.box7{
+    background-color: darkorchid;
+    width: 12.5%;
+height: 100px;
+
+margin: 20px 2.5%;
+color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+} 
+.box8{
+    background-color:hotpink;
+    width: 12.5%;
+height: 100px;
+
+margin: 20px 2.5%;
+color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+} 
+
+.box9{
+    background-color: indigo;
+    width: 12.5%;
+height: 100px;
+
+margin: 20px 2.5%;
+color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+} 
+.box10{
+    background-color: dodgerblue;
+    width: 12.5%;
+height: 100px;
+
+margin: 20px 2.5%;
+color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+} 
+
 
 .bottom-content {
 display: flex;
