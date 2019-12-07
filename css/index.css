@@ -28,27 +28,27 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 display: block;
 }
+/*code for header*/
 
-section{
+.section .logo .navigation {
 display: flex;
 justify-content: space-around;
 
 }
-/* code for nav bar*/
 
-.navigation {
-    display: flex;
-    flex-direction: row;
-    /* This aligns items to the end line on main-axis */
-    justify-content: flex-end;
-    
-}
-
-/* code for nav bar Ends here*/
+/*Code for logo starts here*/
 .logo {
-    display: inline;
-    justify-content: flex-start;
+    display: flex;
+    justify-content: left;
+
 }
+/*Code for logo ends here*/
+
+/* code for nav bar*/
+.navigation a {
+    display: flex;
+}
+/* code for nav bar Ends here*/
 
 body {
 box-sizing:border-box;
