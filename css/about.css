@@ -70,15 +70,20 @@ nav.navigation{
 
 body {
 box-sizing:border-box;
-margin: 0;
+margin-top: 20px;
 padding-right: 2%;
 line-height: 1;
 }
-div.body-image{
+
+
+div.about-jumbo img{
     padding-top: 15px;
-    padding-left: 0px;
+    padding-left: 20%;
     box-sizing: border-box;
+    margin-left: 20%;
 }
+
+/*
 ol, ul {
 list-style: none;
 }
@@ -114,13 +119,6 @@ p {
 line-height: 1.4;
 }
 
-.container {
-display: flex;
-box-sizing: border-box;
-width: 80px;
-margin: 0 auto;
-padding-right: 25px;
-}
 
 
 
