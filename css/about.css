@@ -76,14 +76,14 @@ line-height: 1;
 }
 
 
-div.about-jumbo img{
+div .about-jumbo img{
     padding-top: 15px;
     padding-left: 20%;
     box-sizing: border-box;
-    margin-left: 20%;
+    margin-left: 37%;
 }
 
-/*
+
 ol, ul {
 list-style: none;
 }
