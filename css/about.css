@@ -69,21 +69,15 @@ nav.navigation{
 
 
 body {
-box-sizing:border-box;
-margin-top: 20px;
-padding-right: 2%;
-line-height: 1;
-}
-
-
-div .about-jumbo img{
-    padding-top: 15px;
-    padding-left: 20%;
     box-sizing: border-box;
-    margin-left: 37%;
+    margin: 0;
+    padding: 5%;
+    line-height: 1;
 }
-
-
+div.body-image{
+    padding-left: 20%;
+    margin-bottom: 25px;
+}
 ol, ul {
 list-style: none;
 }
@@ -123,9 +117,24 @@ line-height: 1.4;
 
 
 .top-content .text-container {
-width: 0%;
-padding: 0 1%;
+display: inline-block;
+box-sizing: border-box;
 padding-bottom: 20px;  
+}
+.learn-more{
+    display: inline-block;
+box-sizing: border-box;
+padding-bottom: 20px; 
+}
+.collar{
+    width: 40%;
+    height: 40%;
+}
+.learn-more .collab img{
+display: inline-block;
+flex-flow: wrap;
+box-sizing: border-box;
+justify-content: space-evenly;
 }
 
 .middle-content {
@@ -156,19 +165,13 @@ align-items: center;
 justify-content: center;
 }
 
-.bottom-content {
+.last-line {
 display: flex;
 margin: 0 2% 20px;
 justify-content: space-around;
 }
 
-.bottom-content .text-container {
-padding-right: 4%;
-}
 
-.bottom-content .text-container:last-child {
-padding-right: 0;
-}
 
 footer {
 width: 100%;
