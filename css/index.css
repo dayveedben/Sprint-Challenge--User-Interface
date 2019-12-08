@@ -28,25 +28,42 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 display: block;
 }
+*{
+    box-sizing: border-box;
+    
+}
 /*code for header*/
 
-.section .logo .navigation {
+section {
 display: flex;
-justify-content: space-around;
 
+
+}
+section.logo.navigation{
+    display: flex;
+}
+nav.navigation a{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
 }
 
 /*Code for logo starts here*/
-.logo {
+logo.logo {
     display: flex;
-    justify-content: left;
+    justify-content: flex-start;
+    padding-left: 50px;
+    
 
 }
 /*Code for logo ends here*/
 
 /* code for nav bar*/
-.navigation a {
+nav.navigation{
     display: flex;
+    justify-content: space-around;
+    padding-left: 160px;
+    box-sizing: border-box;
 }
 /* code for nav bar Ends here*/
 
