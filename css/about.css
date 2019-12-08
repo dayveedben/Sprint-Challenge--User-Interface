@@ -103,7 +103,7 @@ height: 100%;
 font-family: 'Roboto', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h3, h4, h5 {
 font-size: 18px;
 margin-bottom: 15px;
 font-family: 'Rubik', sans-serif;
@@ -124,19 +124,21 @@ padding-bottom: 20px;
 .learn-more{
     display: inline-block;
 box-sizing: border-box;
-padding-bottom: 10px; 
+padding-bottom: 1px; 
+flex-direction: column wrap;
 }
-.collab{
+.collab img{
     display: flex;
     flex-flow: column wrap;
-    width: 20%;
-    padding: 30px;
-    margin: 10px;
+    text-justify: newspaper;
+    width: 25%;
+    padding: 4px;
+    margin: 4px;
 }
 .learn-more .collab img{
 display: flex;
-flex-flow: wrap;
 box-sizing: border-box;
+
 
 }
 
