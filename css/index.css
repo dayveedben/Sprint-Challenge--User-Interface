@@ -37,6 +37,7 @@ header.header{
     display: flex;
     padding-left: 10%;
     box-sizing: border-box;
+    margin-top: 20px;
 }
 section {
 display: flex;
