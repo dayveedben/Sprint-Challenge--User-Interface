@@ -33,10 +33,13 @@ display: block;
     
 }
 /*code for header*/
-
+header.header{
+    display: flex;
+    padding-left: 10%;
+}
 section {
 display: flex;
-
+padding-left: 5%;
 
 }
 section.logo.navigation{
@@ -68,7 +71,7 @@ nav.navigation{
 /* code for nav bar Ends here*/
 div.body-image{
     padding-top: 15px;
-    padding-left: 150px;
+    padding-left: 0px;
     box-sizing: border-box;
 }
 
@@ -116,6 +119,7 @@ line-height: 1.4;
 .container {
 width: 800px;
 margin: 0 auto;
+padding-right: 25px;
 }
 
 .top-content {
@@ -136,6 +140,7 @@ padding-bottom: 20px;
 .middle-content {
 margin-bottom: 20px;
 border-bottom: 1px dashed black;
+flex-direction: column;
 }
 
 .middle-content h2 {
